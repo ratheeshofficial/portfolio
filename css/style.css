@@ -7,6 +7,12 @@ body {
   padding: 0px;
 }
 
+.logo:hover {
+  transition: all 0.5s;
+  color: #bdf200 !important;
+  cursor: pointer;
+}
+
 .bg-lightgrey {
   background-color: rgb(171, 173, 165) !important;
 }
