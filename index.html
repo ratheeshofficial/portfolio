@@ -818,7 +818,7 @@
             <img src="./images/Blogpost.jpg" alt="contact" class="w-100" />
           </div>
           <div class="col-lg-6 col-6 p-lg-0 p-5 align-self-center">
-            <form>
+            <form data-netlify="'true">
               <div class="mb-3">
                 <label
                   for="validationDefault01"
@@ -827,6 +827,7 @@
                 >
                 <input
                   type="text"
+                  name="name"
                   class="form-control form-control-lg form-input fw-bold fs-6"
                   placeholder="Name"
                   required
@@ -840,6 +841,7 @@
                 >
                 <input
                   type="email"
+                  name="email"
                   class="form-control form-control-lg form-input fw-bold fs-6"
                   id="exampleFormControlInput1"
                   placeholder="name@example.com"
@@ -854,6 +856,7 @@
                 >
                 <input
                   type="tel"
+                  name="phone"
                   class="form-control form-control-lg form-input fw-bold fs-6"
                   id="exampleFormControlInput1"
                   placeholder="Phone Number"
@@ -867,6 +870,7 @@
                 >
                 <textarea
                   placeholder="Message"
+                  name="message"
                   class="form-control form-control-lg form-input fw-bold fs-6"
                   id="exampleFormControlTextarea1"
                   rows="3"
