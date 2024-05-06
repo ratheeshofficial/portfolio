@@ -341,6 +341,11 @@ body {
 }
 
 /* footer */
+
+.f-link {
+  color: #fff;
+  text-decoration: none;
+}
 .footer-menu:hover {
   cursor: pointer;
   transition: all 0.8s;
